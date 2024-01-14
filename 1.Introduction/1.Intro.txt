@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Web Developers in short build and maintain websites. 
+
+They often work for clients who want's their product or service onto the web. The work can either be solo or involves team collaboration to 
+facilitate the needs of the client into the end product.
+The work could involve front-end , back-end, or full stack web development. 
+The client can be technological company, govermental organization or an individual.
+
+The Front-end is usually the stuff we see on the website. It involves presentation of the content and user-interface elements such as navigation bar.
+We generally use HTML,CSS,Javascript to work on front-end. Along with that frameworks such as React.js, Angular.js are also used to provide good user experience.
+
+The Back-End is usually all the operations that goes behind the front-end . All the operations takes place in the server where all the data of the website is being stored.
+We use programming languages such as Python, Ruby and JavaScript to work on data. 
+
+Full-stack developers are comfortable working with both the front and back ends.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is a computer??
+
+A computer is an electronic device that manipulates information or data. It sees the data as 1's and 0's but can combine together to interpret complex things such as images,
+movies,games etc. The computer consists of hardware and software.
+
+The hardware consists of inner components such as RAM, Memory devices, CPU, etc and external components such as mouse, monitor, 
+keyboard. The software are a set of instructuctions that tells the hardware what to do. EX:- Browser, software applications.
+
+There are different types of computers such as desktops, laptops, smartphones, etc. And these devices will have different OS such as Windows,MacOS,Android,iOS.
+
+Servers are used to send the information to other computers over the network. Whenever we search on the browsers , the servers are responsible for sending the requested webpages.
+They are used by companies to store, retrieve or share the data.
+
+Since the computer knows only 1's and 0's , that's where OS comes into place. The OS allows the users to interact with the computers directly. The OS is responsible for 
+managing and coordinating the hardware and software components of the computer.
+Modern OS uses graphical user interfaces (GUI) to simplify the interaction between the user and computer.
+Some of the popular OS are Windows, macOS , Linux.
+
+The applications are computer programs that are used to perform the tasks or can be used for fun.
+They run in the operating systems. Some of the examples include Word processors , Browsers, etc.
+
+The source code is a technical blueprint that entails how the program functions. When the product or software is built completely , it is upon the creators to choose the source 
+code to be closed-source (proprietary software) and open-source.
+The open-source code is available to the public and the programmers can read and modify the source code as well.
+Many programers can collaborate to the source to remove bugs and improve the efficiency. 
+The closed-source code is not available to the public and is more stable and focused product.
+
+
