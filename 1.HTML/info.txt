@@ -1,11 +1,19 @@
+Most of the modern web browsers such as Chrome , Firefox , Brave does the same thing that is taking different files such as HTML , 
+CSS and JavaScript and then render them into a website.
+
+You can't create a website with just CSS file or just JS File. Howewer , you can just use the HTML File to create a website. 
+That's exactly how the old/static websites were created that is with just HTML FIle.
+
+HTML defines the content and structure of the website. In simple words it can be said that HTML is the skeletal system of the website.
+
 HTML Stands For Hypertext Markup Language.
 
-Hypertext means the files/webpages that are linked with each other is called hypertext.
+--> Hypertext means the pieces of files/webpages are hyperlinked or hypertexted with each other.
 
-Markup means that the files/webpages are treated as manuscripts 
+--> Markup means that the files/webpages are treated as manuscripts. 
 
-Markup is done by Tags
+    -> Markup is done by Tags
 
-Tags can be Headings , Paragraph , body and many more.
+    -> Tags can be Headings , Paragraph , body and many more.
 
 
