@@ -1,0 +1,11 @@
+HTML Stands For Hypertext Markup Language.
+
+Hypertext means the files/webpages that are linked with each other is called hypertext.
+
+Markup means that the files/webpages are treated as manuscripts 
+
+Markup is done by Tags
+
+Tags can be Headings , Paragraph , body and many more.
+
+
