@@ -1,0 +1,8 @@
+CSS stands for Cascading Style Sheets.
+
+A style sheet is a type of language similiar to the HTML , which is a markup language.
+It will specify how things should look in the website.
+
+Earlier in order to differentiate the websites , HTML released many attributes such as color, font and many more. But this made the early 
+websites more bulky and heavy weight due to lot of styling content. In order to solve this , CSS was introduced to seperate the styling 
+from HTML.

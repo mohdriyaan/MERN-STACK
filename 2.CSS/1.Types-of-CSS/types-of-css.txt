@@ -1,0 +1,33 @@
+There are three types of adding css :- 
+ 1. Inline CSS 
+ 2. Internal CSS
+ 3. External CSS
+
+1. Inline :- It goes into the same line as the html element 
+Ex:- <html style ="background:blue">
+     </html>
+
+Here style is an attribute , background is property and blue is value.
+
+2. Internal CSS :- In this we use style tag in the <head> element
+Ex:- <html>
+     <head>
+     <style>
+       html{
+         background:red;
+       }
+     </style>
+     </head> 
+     </html>
+
+3. External CSS :- If we want to create multi-page website , then we use External CSS.
+ We create another file called styles.css
+ html{
+    background:green
+ }
+ In html file we write :-
+ <html>
+ <head>
+ <link rel="stylesheet" href="./styles.css"/>
+ </head>
+ </html>

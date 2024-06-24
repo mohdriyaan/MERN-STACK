@@ -1,0 +1,51 @@
+Types Of CSS Selectors:-
+
+1. Element Selector
+Format:-h1{
+            color:red
+        }
+
+Here h1 is selector , color is property and red is value.
+Element Selector applies property to only the specified selector.
+
+2. Class Selector
+Format:-.red-heading{
+            color:red
+        }
+
+Here .red-heading is class , color is property and red is value.
+Class is an attribute that can used to any html element and used for grouping particular elements that have the same tags.
+Ex:-<h1>Hello</h1>
+    <h1 class="red-heading">Red</h1>
+
+What if we had multiple elements having same class
+For Ex:-<h2 class="red-text">Hello</h2>
+        <h3>Heading 3</h3>
+        <p class="red-text">Hello</p>
+In that case the elements having the same class will get the CSS rule applied to them.
+
+3. ID Selector
+#main{
+    color:red
+}
+
+Mostly It works similiar to class selector. The difference is class selector applies  to many elements whereas id should be applied to only one lement in a single HTML file , 
+It should be unique. ID's are unique to only one element per file and classes can be put on many elements
+
+4. Attribute Selector
+
+Format:-p[draggable]{
+            color:red
+        }
+
+Select all paragraph elements with draggable attribute and apply the css rule to it.
+Ex:- <p draggable="true">Drag Me</p>
+     <p>Don't drag me</p>
+     <p>Don't drag me</p>
+
+5. Universal Selector
+*{
+    color:red
+}
+It will apply css rule to everything where the stylesheet is active.
+
