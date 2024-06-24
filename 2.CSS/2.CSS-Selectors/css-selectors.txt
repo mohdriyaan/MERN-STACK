@@ -25,15 +25,14 @@ For Ex:-<h2 class="red-text">Hello</h2>
 In that case the elements having the same class will get the CSS rule applied to them.
 
 3. ID Selector
-#main{
-    color:red
-}
+Format:-#main{
+            color:red
+        }
 
 Mostly It works similiar to class selector. The difference is class selector applies  to many elements whereas id should be applied to only one lement in a single HTML file , 
 It should be unique. ID's are unique to only one element per file and classes can be put on many elements
 
 4. Attribute Selector
-
 Format:-p[draggable]{
             color:red
         }
@@ -44,8 +43,8 @@ Ex:- <p draggable="true">Drag Me</p>
      <p>Don't drag me</p>
 
 5. Universal Selector
-*{
-    color:red
-}
+Format:-*{
+            color:red
+        }
 It will apply css rule to everything where the stylesheet is active.
 
