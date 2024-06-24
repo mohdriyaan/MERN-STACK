@@ -1,0 +1,34 @@
+There are 4 broad categories which we look at when we're determining the overall level of
+importance of a CSS rule :-
+
+1. Position
+Ex:-li{
+        color:red;
+        color:blue;
+    }
+In this ex. the color blue is applied to li element. So, the lower down the rule is , the more
+important it is. 
+
+2. Specificity
+It refers to how specific a selector is in terms of the elements that you are applying the CSS rule to.
+Ex:- <li id="first-id" class="first-class" draggable>
+    CSS file
+    li{color:blue};
+    .first-class{color:red};
+    li[draggable]{color:purple};
+    #first-id{color:orange};
+From this ex. the order of specificity will be id, attribute, class and element. So acc. to CSS rule of specificity 
+the final one in the order will be applied.
+
+3. Type
+In terms of cascade, the most important are the styles that are applied inline because this targets only one specific element . The next one is
+internal, because the internal stylesheet only exists inside one web page, whereas the external stylesheet can be applied across many different HTML 
+files as long as they all are linked to the same CSS file. So then going down the cascade, this is the order where the CSS will get applied.
+
+4. Importance
+The keyword that you can apply to any CSS rule, is the "important" keyword.
+Ex:- color:red !important;
+     color:green;
+If you add this keyword then this is going to ensure that this is going to be the most important rule relative to that element. It dosen't matter how 
+important the previous rule is, it could have been inline or it is the ID selector or it could have been at the bottom of the page , this rule  will be
+implemented. 

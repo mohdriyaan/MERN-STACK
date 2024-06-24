@@ -1,0 +1,32 @@
+There are different ways to combine selectors:-
+
+1. Group rule
+selector,selector{
+    color:violet;
+}
+CSS rule is applied to both selectors or 2 or 3 different selectors.
+
+2. Child
+selector1 > selector2{
+    color:red;
+}
+selector1 is parent and selector2 is child.
+Applies the CSS rule to the child through the parent.
+
+3. Descendant
+selector1 selector2{
+    color: blue;
+}
+Here selector1 is ancestor , selector2 is descendant
+
+4. Chaining
+selectorselector{
+    color:green;
+}
+Apply where all selectors are true
+
+Combining combiners:-
+selector selectorselector{
+    font-size:2rem
+}
+
