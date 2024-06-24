@@ -1,0 +1,8 @@
+Hex Codes are a way of representing a larger number code for that particular color.
+
+For ex, in a color purple which is formed by three fractions that is red, green and blue and imagine these colors are fractions of 
+color out of 255.
+
+rgb(93,56,145)
+
+93 is red , 56 is blue and 145 is green
