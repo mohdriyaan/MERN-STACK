@@ -1,0 +1,24 @@
+In CSS , every element is treated as a box where we can change the dimensions of those boxes by changing
+things such as width and height.
+
+1. Border:-
+We can set border on each of the HTML elements.
+Ex:- border: 10px solid black;
+Here border is a property, 10px is thickness of the border, solid is style of the border and black is the color of
+the border.
+
+Now, once you've defined a border, you can further modify it with more specific rules such as border-top, border-bottom,
+border-left, border-right.
+
+border-width: 0px 10px 20px 30px; works similiarly to the property above.
+The first value is the top, second is the right, third is the bottom and the fourth is the left.
+
+2. Padding:-
+Padding is the distance between content and the border.
+If we set padding:20px; then it will push the border from the content by 20px in all directions.
+
+3. Margin:-
+Margin is actually the part that's outside of the border.
+
+<div> tag:- The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. 
+The <div> tag is easily styled by using the class or id attribute.
