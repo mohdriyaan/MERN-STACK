@@ -1,0 +1,10 @@
+By default, the flex direction is set to row.
+When you have flex-direction set to row, then you are setting something called the main axis.
+Main Axis is horizontal from left to right.
+
+And then there's something called cross axis. It goes perpendicular to the main axis. It goes from top to bottom.
+Format:-flex-direction:column;
+
+flex-basis:100px;
+It will expand along the main axis to satisfy the requirement of the flex-basis.
+

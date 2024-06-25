@@ -1,0 +1,15 @@
+Format:-
+<div class="container">
+    <div class="one"><p>...</p></div>
+    <div class="two"><p>...</p></div>
+    <div class="three"><p>...</p></div>
+</div>
+
+.container{
+    display:flex;
+    gap:10px;
+}
+
+When we declare something display:flex, it gives a little bit of the control to Flexbox to layout our content in a reasonable and commonly desired way.
+Flexbox wraps all the elements within the container that has the 100% width and all the elements are inline and their width will be based on the content 
+size.

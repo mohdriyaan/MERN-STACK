@@ -1,0 +1,21 @@
+Media Queries Format :-
+@media (max-width:600px){
+    h1{
+        font-size:15px;
+    }
+}
+
+This essentially says that at this breakpoint ( in the above case particular width that is less than or equal to 600px ) , then you
+should use this styling in here.
+
+Alternatively, you can use min-width for going to the other direction of rensponsiveness. That is styling is applied when the particular width of the screen is more or 
+equal to 600px.
+
+We can also combine different breakpoints to target screens between particular widths.
+Format:- @media (min-width: 600px) and (max-width: 900px){
+                /*Styles for screens between 600px and 900px*/
+         }
+         
+         @media (max-width: 600px) and (min-width: 900px){
+                /*Styles for screens less than 600px and greater than 900px*/
+         }
