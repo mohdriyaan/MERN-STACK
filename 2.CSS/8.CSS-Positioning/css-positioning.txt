@@ -1,0 +1,13 @@
+There are 4 different types of CSS Positioning :-
+
+1. Static
+Staic Positioning is the HTML default positioning.
+
+2. Relative
+Relative Positioning is the position relative to default/static position.
+
+3. Absolute
+Position relative to nearest positioned ancestor or top left corner of the webpage.
+
+4. Fixed
+Position relative to top left corner of browser window.

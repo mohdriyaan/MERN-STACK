@@ -1,0 +1,27 @@
+There are 3 common display values that are used in CSS:-
+
+1. Inline
+When we add another element , it will go into the same line until we no longer fit into the width of the web page in which case they will go 
+to the next line. In this property, you cannot set size to the elements.
+Ex:-<h1>Harry</h1>
+    <h1>Potter</h1>
+
+CSS:-h1{
+        display:inline;
+     }
+
+Output:- Harry Potter
+
+2. Block 
+By default, most elements have this display property set to a value called "block".
+Ex:- h1{
+        display:block;
+     }
+Output:- Harry
+         Potter
+
+3.Inline-block
+In this property, we can set sizes to the element as well as allow us to have elements that go in to the same line.
+
+4.None
+In this property, it's going to make any element on the screen disappear.
