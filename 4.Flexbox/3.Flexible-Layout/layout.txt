@@ -1,0 +1,24 @@
+To rearrange the layout in the flexbox , we will use the order property.
+By default, everything has an order of 0, so they are arranged by their order in the HTML.
+
+When you run out of space in the row, we use the property flex-wrap: nowrap; . New items gets added on here at the right.
+When we decrease the screen width , in order to wrap the elements , we change this property flex-wrap to wrap instead.
+flex-wrap is the property of the parent that is the container.
+
+justify-content:flex-start;
+It is set on the parent container. It basically sets the distribution of our items along the main axis.Everything is going to be bunched up
+to the left.
+
+And the opposite of that is flex-end, where everything gets bunched up all in the end.
+justify-content:center; centers the flexbox items. justify-content:space-between allows you to have spacing between different elements.
+space-around: items are evenly distributed in the line with equal space around them
+space-evenly: items are distributed so that the spacing between any two adjacent alignment subjects, before the first alignment subject, and 
+after the last alignment subject is the same.
+
+The next property is align-items.Align-items sets the distribution along the cross-axis.
+Ex:- align-items: flex-start;
+     height: 70vh; /*vh:- viewport height*/
+
+To set property on independent item , we use align-self:flex-start.
+
+flex-flow:- Combines the properties of flex-direction and flex-wrap.
