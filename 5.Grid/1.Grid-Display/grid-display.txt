@@ -1,0 +1,25 @@
+Flexbox is good for one-dimensional alignment while grid is really good for 2D layouts where you have almost like a table structure with 
+columns and rows.
+
+These tools have their own strenghts and weaknesses. So Most Web Developers would use a combination of these two tools alongside other things
+such as floats or bootstraps or other frameworks.
+
+Grid Format :-
+index.html:-
+<div class="container">
+    <p>...</p>
+    <p>...</p>
+    <p>...</p>
+</div>
+
+styles.css
+.container{
+    display:grid
+    grid-template-columns:1fr,2fr;
+    grid-template-rows:1fr,1fr;
+    gap:10px
+}
+
+We can use shorthand for rows and columns:-
+grid-template: 1fr 1fr / 1fr 1fr;
+

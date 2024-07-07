@@ -1,0 +1,47 @@
+Flexbox uses priority list to determine the sizing of the flex item's size.
+Content Width < Width < flex-basis < min-width/max-width.
+
+Ex:- Flex container
+display: flex;
+gap: 10px;
+
+Flex items
+flex-basis: 100px;
+flex-grow: 0;
+flex-shrink: 0;
+
+In this ex, when we increase or decrease the width of the window , the items don't actually change in their size at all.
+
+Flex items
+flex-basis: 100px;
+flex-grow: 1;
+flex-shrink: 0;
+
+In this ex, the flex items tries to be 100px wide, but then it's allowed to grow and since there is plenty of space to grow
+then it's going to increase the width of each of these items until the entire width of the container is filled up by each of
+our items.
+When we reduce the width of the container , it gets reduced to flex-shrink amount that is 100px, but it doesen't go further than that.
+Any further than that, the items start going off the screen. When we are widening the container, it will continue to grow until it can 
+fill up all of the space.
+
+Flex items
+flex-basis: 100px;
+flex-grow: 0;
+flex-shrink: 1;
+
+In this ex., by default it is going to set everything to the flex-basis and it's not going to grow to fill the space, but it is going to
+shrink beyond the flex-basis.
+
+Flex items
+flex-basis: 100px;
+flex-grow: 1;
+flex-shrink: 1;
+
+In this ex., the flex-items will take up as much width as possible, and when we shrink it it's going to be small as possible.
+The flex-basis is going to be ignored in this case.
+
+We can use shorthand without writing flex-basis , flex-grow and flex-shrink, 
+flex: 1 1 0;
+The first value is grow, second value is shrink and third value is basis.
+You can even write this shorter by using just flex:1;
+ 

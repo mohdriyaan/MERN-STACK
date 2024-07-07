@@ -1,0 +1,29 @@
+To understand the placement of items , we need to define some important terms that are used often in CSS.
+
+The first thing is we create a container that contains all the items , and this is usually div and it's called 
+Grid Container.
+
+The items that are placed inside the grid are called Grid items.
+
+When we create and size our grids , we create these rows and columns. These are collectively known as tracks.
+We have row tracks and column tracks.
+We create and size these tracks using grid-template-rows and grid-template-columns.
+
+Within the intersection of these tracks, we create these small units called Grid cell.They are smallest unit 
+in grid and they can be different sizes. They essentially sit between rows and columns. You can use multiple cells to create
+grid item.
+
+The lines seperates our tracks. We have horizontal lines and verticle lines , and these are called the Grid Lines.
+We can control these grid lines by using the gap property.
+
+Grid-Column property is shorthand for two other properties:-
+grid-column-start
+grid-column-end
+We can set each of these properties seperately or we can set it using grid-column. 
+
+There is also corresponding property called grid-row which also has 2 other properties:-
+grid-row-start and grid-row-end.
+
+We can position the grid items using this property:-
+grid-area: 2 / 1 / 3 / 3;
+the first value is grid-row-start , 2nd value is grid-column-start, 3rd value is grid-row-end and 4th value is grid-column-end.

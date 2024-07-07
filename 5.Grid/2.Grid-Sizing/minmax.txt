@@ -1,0 +1,8 @@
+.container{
+    display:grid
+    grid-template-columns:200px 400px;
+    grid-template-rows:200px minmax(400px,800px);
+}
+
+This is a way of limiting the size of columns inside the grid depending upon the size of screen width.
+When we reduce the size of the screen, the 2nd column will be rensponsive until it refuses at 400px.
