@@ -1,0 +1,20 @@
+The most powerful feature of Bootstrap is 12-column system.
+
+The 12-column system is made of three components:-
+Firstly we need a div that has the class of "container" and this is going to be starting point.
+
+Next inside that container, we need another div which is going to be of class "row" and inside the row
+is where we will have our items and they will be laid out using the column system.
+
+The bootstrap container is responsive.
+
+The layout system can have sized columns. Instead of writing col as the class, we can actually set the class
+as for example, col-2 or col-4. We can use col-1 all the way upto the col-12.
+
+Bootstrap has default breakpoints.
+Ex:- col-sm-2 
+     col-lg-8
+It can also have multiple breakpoints such as:-
+col-sm-5 col-md-7 col-lg-8
+
+

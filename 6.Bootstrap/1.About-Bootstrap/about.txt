@@ -1,0 +1,9 @@
+Bootstrap Framework is one of many external CSS layout systems, but this is probably one of the most popular and the most likely
+you will likely come across.
+
+Bootstrap is a CSS Framework created in 2010 by two Twitter developers Mark Otto and Jacob.
+
+It became so popular because it contains pre-made CSS files which you can include in your project in order to use their pre-built 
+components and styling.
+
+It has a 12-column layout system built on top of Flexbox.
