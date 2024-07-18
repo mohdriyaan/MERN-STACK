@@ -1,0 +1,42 @@
+<!-- There are two main color models: the additive RGB (red, green, blue) model used in electronic devices, and the subtractive 
+CMYK (cyan, magenta, yellow, black) model used in print. -->
+
+<!-- In RGB model,  colors begin as black, and change as different levels of red, green, and blue are introduced. 
+An easy way to see this is with the CSS rgb function. -->
+
+<!-- rgb(red, green, blue) -->
+
+<!-- Each red, green, and blue value is a number from 0 to 255. 
+0 means that there's 0% of that color, and is black. 255 means that there's 100% of that color. -->
+
+<!-- In the additive RGB color model, primary colors are colors that, when combined, create pure white. 
+But for this to happen, each  color needs to be at its highest intensity. -->
+<!-- Ex:- rgb(255, 255, 255) gives pure white color. -->
+
+<!-- Secondary colors are the colors you get when you combine primary colors. 
+For Ex:- rgb(255,255,0) gives yellow color , rgb(0,255,255) gives cyan color and rgb(255,0,255) gives magenta color.-->
+
+<!-- Tertiary colors are created by combining a primary with a nearby secondary color. -->
+<!-- Ex:- rgb(255,127,0) , rgb(0,255,127) , rgb(127,0,255) , rgb(127,255,0) , rgb(0,127,255) , rgb(255,0,127) -->
+
+<!-- A very common way to apply color to an element with CSS is with hexadecimal or hex values. 
+While hex values sound complicated, they're really just another form of RGB values. -->
+
+<!-- Hex color values start with a # character and take six characters from 0-9 and A-F. 
+The first pair of characters represent red, the second pair represent green, and the third pair represent blue. -->
+<!-- With hex colors, 00 is 0% of that color, and FF is 100%. So #00FF00 translates to 0% red, 100% green, and 0% blue, 
+and is the same as rgb(0, 255, 0). -->
+
+<!-- You can also use a color transition, or gradient, on an element. -->
+<!-- A gradient is when one color transitions into another. The CSS linear-gradient function lets you control the direction 
+of the transition along a line, and which colors are used. -->
+<!-- Ex:- background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0,255,0)); -->
+
+<!-- Color-stops allow you to fine-tune where colors are placed along the gradient line. They are a length unit like px or percentages that follow a color in the linear-gradient function. -->
+
+<!-- Opacity describes how opaque, or non-transparent, something is. -->
+<!-- With the CSS opacity property, you can control how opaque or transparent an element is. With the value 0, or 0%, the element will be completely transparent, 
+and at 1.0, or 100%, the element will be completely opaque like it is by default. -->
+
+<!-- You can also use alpha channel to set the opacity .
+ex:- rgba(redValue , greenValue , blueValue , opacity) -->
