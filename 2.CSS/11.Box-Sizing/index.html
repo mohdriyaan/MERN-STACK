@@ -1,0 +1,36 @@
+<!-- By default, the width and height of an element is calculated like this:
+
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element
+
+This means: When you set the width/height of an element, the element often appears bigger than you have set (because the element's border and padding are added to the element's specified width/height). -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Sizing</title>
+    <style>
+        .div1{
+            width:300px;
+            height: 100px;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+        .div2{
+            width:300px;
+            height: 100px;
+            border: 1px solid blue; 
+            padding: 50px; /*the box becomes larger because padding is added*/
+            box-sizing: border-box; /*The box-sizing property solves this problem.
+            The box-sizing property allows us to include the padding and border in an element's total width and height.
+            If you set box-sizing: border-box; on an element, padding and border are included in the width and height*/
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+</body>
+</html>
